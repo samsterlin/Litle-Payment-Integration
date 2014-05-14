@@ -658,6 +658,7 @@ class AuthsController extends AppController {
 		$this->redirect(array('action' => 'index'));
 	}
 
+
 	public function getCountryISO(){
 		return $options = array('US'=>'United States',
 		'AF'=>'Afghanistan',
