@@ -29,4 +29,4 @@ To Set Up Locally
 
 - Navigate to litle-cakePHP-integration/index.php inside a browser to view demo web application
 
-Please contact Lilte & Co. with any further questions. You can reach us at SDKSupport@litle.com
+Please contact Lilte & Co. with any further questions. You can reach us at samsterlin@gmail.com
