@@ -1,2 +1,0 @@
-Litle-Payment-Integration
-=========================
