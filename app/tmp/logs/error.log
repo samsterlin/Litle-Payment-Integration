@@ -1,0 +1,295 @@
+2014-05-12 09:57:06 Error: [MissingControllerException] Controller class TestController could not be found.
+#0 C:\xampp\htdocs\test\littleco\litle-cakePHP-integration-master\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 C:\xampp\htdocs\test\littleco\litle-cakePHP-integration-master\index.php(40): require('C:\xampp\htdocs...')
+#2 {main}
+2014-05-12 09:57:12 Error: [MissingControllerException] Controller class TestController could not be found.
+#0 C:\xampp\htdocs\test\littleco\litle-cakePHP-integration-master\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 C:\xampp\htdocs\test\littleco\litle-cakePHP-integration-master\index.php(40): require('C:\xampp\htdocs...')
+#2 {main}
+2014-05-12 09:58:17 Error: [MissingControllerException] Controller class LitleController could not be found.
+#0 C:\xampp\htdocs\litle\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 C:\xampp\htdocs\litle\index.php(40): require('C:\xampp\htdocs...')
+#2 {main}
+2014-05-12 10:00:15 Error: [MissingControllerException] Controller class LitleController could not be found.
+#0 C:\xampp\htdocs\litle\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 C:\xampp\htdocs\litle\index.php(40): require('C:\xampp\htdocs...')
+#2 {main}
+2014-05-12 10:01:45 Error: [MissingControllerException] Controller class LitleController could not be found.
+#0 C:\xampp\htdocs\litle\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 C:\xampp\htdocs\litle\index.php(40): require('C:\xampp\htdocs...')
+#2 {main}
+2014-05-12 10:03:21 Error: [MissingControllerException] Controller class LitleController could not be found.
+#0 C:\xampp\htdocs\litle\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 C:\xampp\htdocs\litle\index.php(40): require('C:\xampp\htdocs...')
+#2 {main}
+2014-05-12 10:07:36 Error: [MissingControllerException] Controller class LitleController could not be found.
+#0 C:\xampp\htdocs\litle\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 C:\xampp\htdocs\litle\index.php(40): require('C:\xampp\htdocs...')
+#2 {main}
+2014-05-12 10:16:03 Error: [MissingControllerException] Controller class LitleController could not be found.
+#0 C:\xampp\htdocs\litle\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 C:\xampp\htdocs\litle\index.php(40): require('C:\xampp\htdocs...')
+#2 {main}
+2014-05-12 10:16:07 Error: [MissingControllerException] Controller class LitleController could not be found.
+#0 C:\xampp\htdocs\litle\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 C:\xampp\htdocs\litle\index.php(40): require('C:\xampp\htdocs...')
+#2 {main}
+2014-05-12 10:16:40 Error: [MissingControllerException] Controller class LitleController could not be found.
+#0 C:\xampp\htdocs\litle\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 C:\xampp\htdocs\litle\index.php(40): require('C:\xampp\htdocs...')
+#2 {main}
+2014-05-12 10:16:44 Error: [MissingControllerException] Controller class LitleController could not be found.
+#0 C:\xampp\htdocs\litle\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 C:\xampp\htdocs\litle\index.php(40): require('C:\xampp\htdocs...')
+#2 {main}
+2014-05-12 10:19:51 Error: [MissingControllerException] Controller class LitleController could not be found.
+#0 C:\xampp\htdocs\litle\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 C:\xampp\htdocs\litle\index.php(40): require('C:\xampp\htdocs...')
+#2 {main}
+2014-05-12 10:19:54 Error: [MissingControllerException] Controller class LitleController could not be found.
+#0 C:\xampp\htdocs\litle\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 C:\xampp\htdocs\litle\index.php(40): require('C:\xampp\htdocs...')
+#2 {main}
+2014-05-12 10:21:15 Error: [MissingConnectionException] Database connection "SQLSTATE[42000] [1044] Access denied for user ''@'localhost' to database 'cake'" is missing, or could not be created.
+#0 C:\xampp\htdocs\Auths\lib\Cake\Model\Datasource\DboSource.php(244): Mysql->connect()
+#1 C:\xampp\htdocs\Auths\lib\Cake\Model\ConnectionManager.php(101): DboSource->__construct(Array)
+#2 C:\xampp\htdocs\Auths\lib\Cake\Model\Model.php(3241): ConnectionManager::getDataSource('cake_db')
+#3 C:\xampp\htdocs\Auths\lib\Cake\Model\Model.php(1030): Model->setDataSource('cake_db')
+#4 C:\xampp\htdocs\Auths\lib\Cake\Model\Model.php(3265): Model->setSource('auth')
+#5 C:\xampp\htdocs\Auths\lib\Cake\Model\Model.php(2483): Model->getDataSource()
+#6 C:\xampp\htdocs\Auths\lib\Cake\Controller\Component\PaginatorComponent.php(172): Model->find('all', Array)
+#7 C:\xampp\htdocs\Auths\lib\Cake\Controller\Controller.php(1025): PaginatorComponent->paginate(NULL, Array, Array)
+#8 C:\xampp\htdocs\Auths\app\Controller\AuthsController.php(68): Controller->paginate()
+#9 [internal function]: AuthsController->index()
+#10 C:\xampp\htdocs\Auths\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(AuthsController), Array)
+#11 C:\xampp\htdocs\Auths\lib\Cake\Routing\Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#12 C:\xampp\htdocs\Auths\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(AuthsController), Object(CakeRequest), Object(CakeResponse))
+#13 C:\xampp\htdocs\Auths\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 C:\xampp\htdocs\Auths\index.php(40): require('C:\xampp\htdocs...')
+#15 {main}
+2014-05-12 10:21:41 Error: [MissingConnectionException] Database connection "SQLSTATE[42000] [1044] Access denied for user ''@'localhost' to database 'cake'" is missing, or could not be created.
+#0 C:\xampp\htdocs\Auths\lib\Cake\Model\Datasource\DboSource.php(244): Mysql->connect()
+#1 C:\xampp\htdocs\Auths\lib\Cake\Model\ConnectionManager.php(101): DboSource->__construct(Array)
+#2 C:\xampp\htdocs\Auths\lib\Cake\Model\Model.php(3241): ConnectionManager::getDataSource('cake_db')
+#3 C:\xampp\htdocs\Auths\lib\Cake\Model\Model.php(1030): Model->setDataSource('cake_db')
+#4 C:\xampp\htdocs\Auths\lib\Cake\Model\Model.php(3265): Model->setSource('auth')
+#5 C:\xampp\htdocs\Auths\lib\Cake\Model\Model.php(2483): Model->getDataSource()
+#6 C:\xampp\htdocs\Auths\lib\Cake\Controller\Component\PaginatorComponent.php(172): Model->find('all', Array)
+#7 C:\xampp\htdocs\Auths\lib\Cake\Controller\Controller.php(1025): PaginatorComponent->paginate(NULL, Array, Array)
+#8 C:\xampp\htdocs\Auths\app\Controller\AuthsController.php(68): Controller->paginate()
+#9 [internal function]: AuthsController->index()
+#10 C:\xampp\htdocs\Auths\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(AuthsController), Array)
+#11 C:\xampp\htdocs\Auths\lib\Cake\Routing\Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#12 C:\xampp\htdocs\Auths\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(AuthsController), Object(CakeRequest), Object(CakeResponse))
+#13 C:\xampp\htdocs\Auths\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 C:\xampp\htdocs\Auths\index.php(40): require('C:\xampp\htdocs...')
+#15 {main}
+2014-05-12 10:25:42 Error: [Exception] Missing Field /user/
+#0 C:\xampp\htdocs\Auths\app\Lib\litle\Obj2xml.php(29): Obj2xml::getConfig(Array)
+#1 C:\xampp\htdocs\Auths\app\Lib\litle\LitleOnlineRequest.php(326): Obj2xml::toXml(Array, Array, 'authorization')
+#2 C:\xampp\htdocs\Auths\app\Lib\litle\LitleOnlineRequest.php(66): LitleOnlineRequest->processRequest(Array, Array, 'authorization', Array)
+#3 C:\xampp\htdocs\Auths\app\Controller\AuthsController.php(177): LitleOnlineRequest->authorizationRequest(Array)
+#4 [internal function]: AuthsController->add()
+#5 C:\xampp\htdocs\Auths\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(AuthsController), Array)
+#6 C:\xampp\htdocs\Auths\lib\Cake\Routing\Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#7 C:\xampp\htdocs\Auths\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(AuthsController), Object(CakeRequest), Object(CakeResponse))
+#8 C:\xampp\htdocs\Auths\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 C:\xampp\htdocs\Auths\index.php(40): require('C:\xampp\htdocs...')
+#10 {main}
+2014-05-12 10:26:25 Error: [Exception] Missing Field /user/
+#0 C:\xampp\htdocs\Auths\app\Lib\litle\Obj2xml.php(29): Obj2xml::getConfig(Array)
+#1 C:\xampp\htdocs\Auths\app\Lib\litle\LitleOnlineRequest.php(326): Obj2xml::toXml(Array, Array, 'sale')
+#2 C:\xampp\htdocs\Auths\app\Lib\litle\LitleOnlineRequest.php(103): LitleOnlineRequest->processRequest(Array, Array, 'sale', Array, NULL)
+#3 C:\xampp\htdocs\Auths\app\Controller\AuthsController.php(488): LitleOnlineRequest->saleRequest(Array)
+#4 [internal function]: AuthsController->sale()
+#5 C:\xampp\htdocs\Auths\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(AuthsController), Array)
+#6 C:\xampp\htdocs\Auths\lib\Cake\Routing\Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#7 C:\xampp\htdocs\Auths\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(AuthsController), Object(CakeRequest), Object(CakeResponse))
+#8 C:\xampp\htdocs\Auths\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 C:\xampp\htdocs\Auths\index.php(40): require('C:\xampp\htdocs...')
+#10 {main}
+2014-05-12 10:26:47 Error: [Exception] Missing Field /user/
+#0 C:\xampp\htdocs\Auths\app\Lib\litle\Obj2xml.php(29): Obj2xml::getConfig(Array)
+#1 C:\xampp\htdocs\Auths\app\Lib\litle\LitleOnlineRequest.php(326): Obj2xml::toXml(Array, Array, 'sale')
+#2 C:\xampp\htdocs\Auths\app\Lib\litle\LitleOnlineRequest.php(103): LitleOnlineRequest->processRequest(Array, Array, 'sale', Array, NULL)
+#3 C:\xampp\htdocs\Auths\app\Controller\AuthsController.php(488): LitleOnlineRequest->saleRequest(Array)
+#4 [internal function]: AuthsController->sale()
+#5 C:\xampp\htdocs\Auths\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(AuthsController), Array)
+#6 C:\xampp\htdocs\Auths\lib\Cake\Routing\Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#7 C:\xampp\htdocs\Auths\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(AuthsController), Object(CakeRequest), Object(CakeResponse))
+#8 C:\xampp\htdocs\Auths\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 C:\xampp\htdocs\Auths\index.php(40): require('C:\xampp\htdocs...')
+#10 {main}
+2014-05-12 10:41:25 Error: [Exception] Missing Field /user/
+#0 C:\xampp\htdocs\Auths\app\Lib\litle\Obj2xml.php(29): Obj2xml::getConfig(Array)
+#1 C:\xampp\htdocs\Auths\app\Lib\litle\LitleOnlineRequest.php(326): Obj2xml::toXml(Array, Array, 'authorization')
+#2 C:\xampp\htdocs\Auths\app\Lib\litle\LitleOnlineRequest.php(66): LitleOnlineRequest->processRequest(Array, Array, 'authorization', Array)
+#3 C:\xampp\htdocs\Auths\app\Controller\AuthsController.php(177): LitleOnlineRequest->authorizationRequest(Array)
+#4 [internal function]: AuthsController->add()
+#5 C:\xampp\htdocs\Auths\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(AuthsController), Array)
+#6 C:\xampp\htdocs\Auths\lib\Cake\Routing\Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#7 C:\xampp\htdocs\Auths\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(AuthsController), Object(CakeRequest), Object(CakeResponse))
+#8 C:\xampp\htdocs\Auths\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 C:\xampp\htdocs\Auths\index.php(40): require('C:\xampp\htdocs...')
+#10 {main}
+2014-05-12 11:01:28 Error: [Exception] Missing Field /user/
+#0 C:\xampp\htdocs\Auths\app\Lib\litle\Obj2xml.php(29): Obj2xml::getConfig(Array)
+#1 C:\xampp\htdocs\Auths\app\Lib\litle\LitleOnlineRequest.php(326): Obj2xml::toXml(Array, Array, 'authorization')
+#2 C:\xampp\htdocs\Auths\app\Lib\litle\LitleOnlineRequest.php(66): LitleOnlineRequest->processRequest(Array, Array, 'authorization', Array)
+#3 C:\xampp\htdocs\Auths\app\Controller\AuthsController.php(178): LitleOnlineRequest->authorizationRequest(Array)
+#4 [internal function]: AuthsController->add()
+#5 C:\xampp\htdocs\Auths\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(AuthsController), Array)
+#6 C:\xampp\htdocs\Auths\lib\Cake\Routing\Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#7 C:\xampp\htdocs\Auths\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(AuthsController), Object(CakeRequest), Object(CakeResponse))
+#8 C:\xampp\htdocs\Auths\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 C:\xampp\htdocs\Auths\index.php(40): require('C:\xampp\htdocs...')
+#10 {main}
+2014-05-12 11:02:03 Error: [Exception] Missing Field /user/
+#0 C:\xampp\htdocs\Auths\app\Lib\litle\Obj2xml.php(29): Obj2xml::getConfig(Array)
+#1 C:\xampp\htdocs\Auths\app\Lib\litle\LitleOnlineRequest.php(326): Obj2xml::toXml(Array, Array, 'authorization')
+#2 C:\xampp\htdocs\Auths\app\Lib\litle\LitleOnlineRequest.php(66): LitleOnlineRequest->processRequest(Array, Array, 'authorization', Array)
+#3 C:\xampp\htdocs\Auths\app\Controller\AuthsController.php(178): LitleOnlineRequest->authorizationRequest(Array)
+#4 [internal function]: AuthsController->add()
+#5 C:\xampp\htdocs\Auths\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(AuthsController), Array)
+#6 C:\xampp\htdocs\Auths\lib\Cake\Routing\Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#7 C:\xampp\htdocs\Auths\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(AuthsController), Object(CakeRequest), Object(CakeResponse))
+#8 C:\xampp\htdocs\Auths\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 C:\xampp\htdocs\Auths\index.php(40): require('C:\xampp\htdocs...')
+#10 {main}
+2014-05-12 11:04:17 Error: [Exception] Missing Field /user/
+#0 C:\xampp\htdocs\Auths\app\Lib\litle\Obj2xml.php(29): Obj2xml::getConfig(Array)
+#1 C:\xampp\htdocs\Auths\app\Lib\litle\LitleOnlineRequest.php(326): Obj2xml::toXml(Array, Array, 'authorization')
+#2 C:\xampp\htdocs\Auths\app\Lib\litle\LitleOnlineRequest.php(66): LitleOnlineRequest->processRequest(Array, Array, 'authorization', Array)
+#3 C:\xampp\htdocs\Auths\app\Controller\AuthsController.php(178): LitleOnlineRequest->authorizationRequest(Array)
+#4 [internal function]: AuthsController->add()
+#5 C:\xampp\htdocs\Auths\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(AuthsController), Array)
+#6 C:\xampp\htdocs\Auths\lib\Cake\Routing\Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#7 C:\xampp\htdocs\Auths\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(AuthsController), Object(CakeRequest), Object(CakeResponse))
+#8 C:\xampp\htdocs\Auths\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 C:\xampp\htdocs\Auths\index.php(40): require('C:\xampp\htdocs...')
+#10 {main}
+2014-05-12 11:05:45 Error: [Exception] Missing Field /user/
+#0 C:\xampp\htdocs\Auths\app\Lib\litle\Obj2xml.php(29): Obj2xml::getConfig(Array)
+#1 C:\xampp\htdocs\Auths\app\Lib\litle\LitleOnlineRequest.php(326): Obj2xml::toXml(Array, Array, 'authorization')
+#2 C:\xampp\htdocs\Auths\app\Lib\litle\LitleOnlineRequest.php(66): LitleOnlineRequest->processRequest(Array, Array, 'authorization', Array)
+#3 C:\xampp\htdocs\Auths\app\Controller\AuthsController.php(178): LitleOnlineRequest->authorizationRequest(Array)
+#4 [internal function]: AuthsController->add()
+#5 C:\xampp\htdocs\Auths\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(AuthsController), Array)
+#6 C:\xampp\htdocs\Auths\lib\Cake\Routing\Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#7 C:\xampp\htdocs\Auths\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(AuthsController), Object(CakeRequest), Object(CakeResponse))
+#8 C:\xampp\htdocs\Auths\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 C:\xampp\htdocs\Auths\index.php(40): require('C:\xampp\htdocs...')
+#10 {main}
+2014-05-12 11:06:52 Error: [Exception] Missing Field /user/
+#0 C:\xampp\htdocs\Auths\app\Lib\litle\Obj2xml.php(29): Obj2xml::getConfig(Array)
+#1 C:\xampp\htdocs\Auths\app\Lib\litle\LitleOnlineRequest.php(326): Obj2xml::toXml(Array, Array, 'authorization')
+#2 C:\xampp\htdocs\Auths\app\Lib\litle\LitleOnlineRequest.php(66): LitleOnlineRequest->processRequest(Array, Array, 'authorization', Array)
+#3 C:\xampp\htdocs\Auths\app\Controller\AuthsController.php(178): LitleOnlineRequest->authorizationRequest(Array)
+#4 [internal function]: AuthsController->add()
+#5 C:\xampp\htdocs\Auths\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(AuthsController), Array)
+#6 C:\xampp\htdocs\Auths\lib\Cake\Routing\Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#7 C:\xampp\htdocs\Auths\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(AuthsController), Object(CakeRequest), Object(CakeResponse))
+#8 C:\xampp\htdocs\Auths\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 C:\xampp\htdocs\Auths\index.php(40): require('C:\xampp\htdocs...')
+#10 {main}
+2014-05-12 11:07:30 Error: [Exception] Missing Field /user/
+#0 C:\xampp\htdocs\Auths\app\Lib\litle\Obj2xml.php(29): Obj2xml::getConfig(Array)
+#1 C:\xampp\htdocs\Auths\app\Lib\litle\LitleOnlineRequest.php(326): Obj2xml::toXml(Array, Array, 'authorization')
+#2 C:\xampp\htdocs\Auths\app\Lib\litle\LitleOnlineRequest.php(66): LitleOnlineRequest->processRequest(Array, Array, 'authorization', Array)
+#3 C:\xampp\htdocs\Auths\app\Controller\AuthsController.php(178): LitleOnlineRequest->authorizationRequest(Array)
+#4 [internal function]: AuthsController->add()
+#5 C:\xampp\htdocs\Auths\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(AuthsController), Array)
+#6 C:\xampp\htdocs\Auths\lib\Cake\Routing\Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#7 C:\xampp\htdocs\Auths\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(AuthsController), Object(CakeRequest), Object(CakeResponse))
+#8 C:\xampp\htdocs\Auths\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 C:\xampp\htdocs\Auths\index.php(40): require('C:\xampp\htdocs...')
+#10 {main}
+2014-05-12 11:15:47 Error: [Exception] Missing Field /user/
+#0 C:\xampp\htdocs\Auths\app\Lib\litle\Obj2xml.php(29): Obj2xml::getConfig(Array)
+#1 C:\xampp\htdocs\Auths\app\Lib\litle\LitleOnlineRequest.php(326): Obj2xml::toXml(Array, Array, 'authorization')
+#2 C:\xampp\htdocs\Auths\app\Lib\litle\LitleOnlineRequest.php(66): LitleOnlineRequest->processRequest(Array, Array, 'authorization', Array)
+#3 C:\xampp\htdocs\Auths\app\Controller\AuthsController.php(178): LitleOnlineRequest->authorizationRequest(Array)
+#4 [internal function]: AuthsController->add()
+#5 C:\xampp\htdocs\Auths\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(AuthsController), Array)
+#6 C:\xampp\htdocs\Auths\lib\Cake\Routing\Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#7 C:\xampp\htdocs\Auths\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(AuthsController), Object(CakeRequest), Object(CakeResponse))
+#8 C:\xampp\htdocs\Auths\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 C:\xampp\htdocs\Auths\index.php(40): require('C:\xampp\htdocs...')
+#10 {main}
+2014-05-12 11:16:27 Error: [Exception] Missing Field /user/
+#0 C:\xampp\htdocs\Auths\app\Lib\litle\Obj2xml.php(29): Obj2xml::getConfig(Array)
+#1 C:\xampp\htdocs\Auths\app\Lib\litle\LitleOnlineRequest.php(326): Obj2xml::toXml(Array, Array, 'authorization')
+#2 C:\xampp\htdocs\Auths\app\Lib\litle\LitleOnlineRequest.php(66): LitleOnlineRequest->processRequest(Array, Array, 'authorization', Array)
+#3 C:\xampp\htdocs\Auths\app\Controller\AuthsController.php(178): LitleOnlineRequest->authorizationRequest(Array)
+#4 [internal function]: AuthsController->add()
+#5 C:\xampp\htdocs\Auths\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(AuthsController), Array)
+#6 C:\xampp\htdocs\Auths\lib\Cake\Routing\Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#7 C:\xampp\htdocs\Auths\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(AuthsController), Object(CakeRequest), Object(CakeResponse))
+#8 C:\xampp\htdocs\Auths\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 C:\xampp\htdocs\Auths\index.php(40): require('C:\xampp\htdocs...')
+#10 {main}
+2014-05-12 12:02:00 Error: [Exception] Missing Field /user/
+#0 C:\xampp\htdocs\Auths\app\Lib\litle\Obj2xml.php(29): Obj2xml::getConfig(Array)
+#1 C:\xampp\htdocs\Auths\app\Lib\litle\LitleOnlineRequest.php(326): Obj2xml::toXml(Array, Array, 'authorization')
+#2 C:\xampp\htdocs\Auths\app\Lib\litle\LitleOnlineRequest.php(66): LitleOnlineRequest->processRequest(Array, Array, 'authorization', Array)
+#3 C:\xampp\htdocs\Auths\app\Controller\AuthsController.php(178): LitleOnlineRequest->authorizationRequest(Array)
+#4 [internal function]: AuthsController->add()
+#5 C:\xampp\htdocs\Auths\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(AuthsController), Array)
+#6 C:\xampp\htdocs\Auths\lib\Cake\Routing\Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#7 C:\xampp\htdocs\Auths\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(AuthsController), Object(CakeRequest), Object(CakeResponse))
+#8 C:\xampp\htdocs\Auths\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 C:\xampp\htdocs\Auths\index.php(40): require('C:\xampp\htdocs...')
+#10 {main}
+2014-05-12 12:04:02 Error: [Exception] Missing Field /user/
+#0 C:\xampp\htdocs\Auths\app\Lib\litle\Obj2xml.php(29): Obj2xml::getConfig(Array)
+#1 C:\xampp\htdocs\Auths\app\Lib\litle\LitleOnlineRequest.php(326): Obj2xml::toXml(Array, Array, 'authorization')
+#2 C:\xampp\htdocs\Auths\app\Lib\litle\LitleOnlineRequest.php(66): LitleOnlineRequest->processRequest(Array, Array, 'authorization', Array)
+#3 C:\xampp\htdocs\Auths\app\Controller\AuthsController.php(178): LitleOnlineRequest->authorizationRequest(Array)
+#4 [internal function]: AuthsController->add()
+#5 C:\xampp\htdocs\Auths\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(AuthsController), Array)
+#6 C:\xampp\htdocs\Auths\lib\Cake\Routing\Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#7 C:\xampp\htdocs\Auths\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(AuthsController), Object(CakeRequest), Object(CakeResponse))
+#8 C:\xampp\htdocs\Auths\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 C:\xampp\htdocs\Auths\index.php(40): require('C:\xampp\htdocs...')
+#10 {main}
+2014-05-12 12:04:22 Error: [Exception] Missing Field /user/
+#0 C:\xampp\htdocs\Auths\app\Lib\litle\Obj2xml.php(29): Obj2xml::getConfig(Array)
+#1 C:\xampp\htdocs\Auths\app\Lib\litle\LitleOnlineRequest.php(326): Obj2xml::toXml(Array, Array, 'authorization')
+#2 C:\xampp\htdocs\Auths\app\Lib\litle\LitleOnlineRequest.php(66): LitleOnlineRequest->processRequest(Array, Array, 'authorization', Array)
+#3 C:\xampp\htdocs\Auths\app\Controller\AuthsController.php(178): LitleOnlineRequest->authorizationRequest(Array)
+#4 [internal function]: AuthsController->add()
+#5 C:\xampp\htdocs\Auths\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(AuthsController), Array)
+#6 C:\xampp\htdocs\Auths\lib\Cake\Routing\Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#7 C:\xampp\htdocs\Auths\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(AuthsController), Object(CakeRequest), Object(CakeResponse))
+#8 C:\xampp\htdocs\Auths\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 C:\xampp\htdocs\Auths\index.php(40): require('C:\xampp\htdocs...')
+#10 {main}
+2014-05-13 07:16:09 Error: [Exception] SSL certificate problem, verify that the CA cert is OK. Details:
+error:14090086:SSL routines:SSL3_GET_SERVER_CERTIFICATE:certificate verify failed
+#0 C:\xampp\htdocs\Auths\app\Lib\litle\LitleXmlMapper.php(36): Communication->httpRequest('<?xml version="...', Array)
+#1 C:\xampp\htdocs\Auths\app\Lib\litle\LitleOnlineRequest.php(328): LitleXmlMapper->request('<?xml version="...', Array)
+#2 C:\xampp\htdocs\Auths\app\Lib\litle\LitleOnlineRequest.php(66): LitleOnlineRequest->processRequest(Array, Array, 'authorization', Array)
+#3 C:\xampp\htdocs\Auths\app\Controller\AuthsController.php(178): LitleOnlineRequest->authorizationRequest(Array)
+#4 [internal function]: AuthsController->add()
+#5 C:\xampp\htdocs\Auths\lib\Cake\Controller\Controller.php(473): ReflectionMethod->invokeArgs(Object(AuthsController), Array)
+#6 C:\xampp\htdocs\Auths\lib\Cake\Routing\Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#7 C:\xampp\htdocs\Auths\lib\Cake\Routing\Dispatcher.php(86): Dispatcher->_invoke(Object(AuthsController), Object(CakeRequest), Object(CakeResponse))
+#8 C:\xampp\htdocs\Auths\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 C:\xampp\htdocs\Auths\index.php(40): require('C:\xampp\htdocs...')
+#10 {main}
+2014-05-13 07:28:24 Error: [MissingControllerException] Controller class Auths123Controller could not be found.
+#0 C:\xampp\htdocs\Auths_123\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 C:\xampp\htdocs\Auths_123\index.php(40): require('C:\xampp\htdocs...')
+#2 {main}
+2014-05-13 07:28:28 Error: [MissingControllerException] Controller class Auths123Controller could not be found.
+#0 C:\xampp\htdocs\Auths_123\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 C:\xampp\htdocs\Auths_123\index.php(40): require('C:\xampp\htdocs...')
+#2 {main}
+2014-05-14 07:04:18 Error: [MissingControllerException] Controller class PostsController could not be found.
+#0 C:\xampp\htdocs\Auths\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 C:\xampp\htdocs\Auths\index.php(40): require('C:\xampp\htdocs...')
+#2 {main}
+2014-05-14 07:04:21 Error: [MissingControllerException] Controller class PostsController could not be found.
+#0 C:\xampp\htdocs\Auths\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 C:\xampp\htdocs\Auths\index.php(40): require('C:\xampp\htdocs...')
+#2 {main}
